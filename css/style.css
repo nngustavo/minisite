@@ -20,41 +20,43 @@ body {
 
 header {
    display: flex;
-   flex-direction: column;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
-   margin-bottom: 10px;
+   flex-wrap: wrap;
+   background-color: black;
+   color: #fff;
 }
 
 header img {
-   width: 200px;
+   padding: 5px;
+   max-width: 80px;
 }
 
 header ul {
-   margin-top: 1.5em;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 10px;
 }
 
-header li {
+header ul li {
    list-style: none;
-   display: inline-block;
    font-weight: 800;
-   margin-right: 2em;
-}
-
-header li:last-child {
-   margin-right: 0;
 }
 
 header a {
+   padding: 13px 30px;
+   color: #fff;
    text-decoration: none;
-   color: #c02020;
-   border-bottom: 5px solid transparent;
+   border-radius: 10px;
 }
 
 header a:hover {
+   border-radius: 10px;
    color: black;
-   border-bottom: 5px solid black;
-   transition-duration: .8s;
+   background-color: #fff;
+   transition-duration: .3s;
 }
 
 main {
