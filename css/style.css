@@ -111,21 +111,32 @@ hr {
 
 footer {
    box-sizing: border-box;
-   background-color: #c02020;
+   background-color: #000;
    color: #fff;
-   padding: 1em;
+   padding: 10px;
    display: flex;
    flex-direction: column;
    align-items: center;
-   justify-content: space-between;
+   justify-content: space-around;
 }
 
-footer p {
+footer p,
+span {
    font-size: 1em;
+   padding: 5px;
 }
 
 footer img {
+   display: block;
    padding: 5px;
    width: 50px;
+   border-radius: 10px;
+   background-color: #fff;
    height: 50px;
+}
+
+.redes-footer {
+   display: flex;
+   flex-direction: row;
+   gap: 10px;
 }
