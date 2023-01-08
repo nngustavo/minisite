@@ -8,15 +8,9 @@
 
 body {
    font-family: 'inter', arial, sans-serif;
-   background-color: #A6A2A2;
+   background-color: #c7c7c7;
 }
 
-.container-principal {
-   margin: auto;
-   width: 85%;
-   background-color: #fff;
-   padding: 3em;
-}
 
 header {
    display: flex;
@@ -25,47 +19,53 @@ header {
    flex-wrap: wrap;
    background-color: black;
    color: #fff;
+   border-bottom: 2px solid rgb(104, 104, 104);
 }
 
-header img {
-   padding: 5px;
-   max-width: 80px;
-}
-
-header ul {
+nav ul {
    display: flex;
    justify-content: center;
    align-items: center;
    flex-wrap: wrap;
    gap: 10px;
+   padding: 20px;
 }
 
-header ul li {
+nav ul li {
    list-style: none;
-   font-weight: 800;
 }
 
-header a {
-   padding: 13px 30px;
+nav a {
+   padding: 20px;
    color: #fff;
    text-decoration: none;
-   border-radius: 10px;
 }
 
-header a:hover {
-   border-radius: 10px;
+nav a:hover {
    color: black;
    background-color: #fff;
    transition-duration: .3s;
 }
 
-main {
-   margin-top: 2em;
+.container-principal {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: 50px 0 50px 0;
 }
 
-article {
-   width: 100%;
+main {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-direction: column;
+   max-width: 800px;
+   background-color: #fff;
+   padding: 20px;
+   box-shadow: 2px 4px 8px 0 rgba(0, 0, 0, 0.2)
 }
+
+article {}
 
 p {
    font-size: 1.2rem;
