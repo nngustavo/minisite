@@ -99,14 +99,16 @@ hr {
    color: #fff;
    background-color: #000;
    font-size: 1em;
-   padding: 3px;
+   padding: 8px;
    text-align: center;
+   border-radius: 0 0 5px 5px;
 }
 
 .posts img {
    display: block;
    width: 320px;
    height: 190px;
+   border-radius: 5px 5px 0 0;
 }
 
 footer {
