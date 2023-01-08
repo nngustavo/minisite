@@ -91,6 +91,11 @@ hr {
    width: 320px;
 }
 
+.posts:hover {
+   opacity: 0.8;
+   transition: 0.4s;
+}
+
 .posts a {
    text-decoration: none;
 }
